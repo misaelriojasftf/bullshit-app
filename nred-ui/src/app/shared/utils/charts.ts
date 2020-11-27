@@ -9,6 +9,7 @@ Chart.elements.Rectangle.prototype.draw = function () {
   var vm = this._view;
   var left, right, top, bottom, signX, signY, borderSkipped, radius;
   var borderWidth = vm.borderWidth;
+
   // Set Radius Here
   // If radius is large enough to cause drawing errors a max radius is imposed
   var cornerRadius = 6;
